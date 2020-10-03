@@ -1,0 +1,16 @@
+<h1> There are {{count}} words in your message </h>
+
+<h1> YOUR TEXT </h1>
+
+{{fulltext}}
+
+<h1> WORD COUNT: </h1>
+
+{% for word, count in sorted_words %}
+
+{{word}} - {{count}}        
+
+
+
+{% endfor %}
+
